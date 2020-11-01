@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+
+    <style>
+        body {
+            background-color: rgb(113, 57, 216);
+            /* background-color: rgb(255, 255, 255); */
+        }
+
+        .heading {
+            color: beige;
+        }
+
+        .card {
+            background-color: rgb(180, 179, 253);
+        }
+
+        .card_body {
+            background-color: rgb(192, 187, 253);
+        }
+
+        .toast {
+            background-color: rgb(192, 187, 253);
+        }
+        .footer {
+            padding: 2.5rem 0;
+            color: #999;
+            text-align: center;
+            background-color: rgb(118, 65, 216);
+            border-top: .1rem solid #e5e5e5;
+        }
+
+        .footer p:last-child {
+            margin-bottom: 0;
+        }
+
+        #copyr {
+            font: 500 18.3333px Lucida Handwriting
+        }
+    </style>
+    <title>First Page</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-dark navbar-toggler mx-lg" style="background-color: #7502aa;">
+        <a class="navbar-brand" href="#">Lalit's_WebPage</a>
+        <button class="navbar-toggler btn-outline-primary" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+   
+
+  
+
+    <div class="container mt-5 pt-4" id="enterNotes">
+        <centre>
+            <h1 class="heading">Welcome to LD Notes</h1>
+        </centre>
+        <div class="card my-3 pl-4">
+            <div class="card-body">
+                <h4>Add a Note</h4>
+                <p class="card-text">Type your text below.....</p>
+
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Type your note here..." id='addText'
+                        rows='5'></textarea>
+                </div>
+
+                <button class="btn btn-primary my-2" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+        <hr color="white">
+        <h3 class="heading">Your Notes</h3 class="heading">
+        <hr color="white">
+    </div>
+    <div class="container-fluid row ml-5" id="notes"></div>
+
+    
+    <footer class="footer">
+        <p>
+            <div id="copyr"> © 2004-2020 Lalit Dumka</div> A Simple Webapp while learning <a
+                href="https://getbootstrap.com/">Bootstrap</a>
+            and <a href="https://JavaScript.com/">JavaScript</a> by <a
+                href="https://www.google.co.in/search?q=lalitdumka">Lalit
+                Dumka</a>.
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+    <script src="jscript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- <script src="jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
